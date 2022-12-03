@@ -226,7 +226,7 @@ model:
 trainer:
   num_nodes: 1
   devices: -1 # number of gpus
-  accelerator: gpu
+  accelerator: cpu
   strategy: ddp
   precision: 16
   max_epochs: 1500

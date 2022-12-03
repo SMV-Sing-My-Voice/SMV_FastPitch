@@ -1,0 +1,14 @@
+{
+  "audio_filepath": "/Users/euna/Desktop/KU/WorkSpace/NeMo-FastPitch/6097_5_mins/audio/jaufry_07_lafon_0073.wav",
+  "text": "her shoulders round and high",
+  "duration": 1.88,
+  "text_no_preprocessing": "her shoulders round and high;",
+  "text_normalized": "her shoulders round and high;"
+}
+{
+  "audio_filepath": "/Users/euna/Desktop/KU/WorkSpace/NeMo-FastPitch/6097_5_mins/audio/roots_44_morris_0112.wav",
+  "text": "how loudly they cry on the hook for the reaping of men doomed to die",
+  "duration": 4.47,
+  "text_no_preprocessing": "how loudly they cry On the hook for the reaping of men doomed to die!",
+  "text_normalized": "how loudly they cry On the hook for the reaping of men doomed to die!"
+}

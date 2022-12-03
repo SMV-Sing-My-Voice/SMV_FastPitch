@@ -21,7 +21,8 @@ from nemo.utils import logging
 from nemo.utils.exp_manager import exp_manager
 
 
-@hydra_runner(config_path="conf", config_name="fastpitch_align_44100")
+# @hydra_runner(config_path="conf", config_name="fastpitch_align_44100")
+@hydra_runner(config_path="/Users/euna/Desktop/KU/WorkSpace/NeMo-FastPitch", config_name="fastpitch_align_v1.05")
 def main(cfg):
     if hasattr(cfg.model.optim, 'sched'):
         logging.warning("You are using an optimizer scheduler while finetuning. Are you sure this is intended?")

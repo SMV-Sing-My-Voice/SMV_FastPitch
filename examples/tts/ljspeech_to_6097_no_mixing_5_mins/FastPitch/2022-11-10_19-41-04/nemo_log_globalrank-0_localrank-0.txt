@@ -1,0 +1,14 @@
+[NeMo W 2022-11-10 19:41:03 optimizers:55] Apex was not found. Using the lamb or fused_adam optimizer will error out.
+[NeMo W 2022-11-10 19:41:04 experimental:27] Module <class 'nemo.collections.common.tokenizers.text_to_speech.tts_tokenizers.IPATokenizer'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2022-11-10 19:41:04 experimental:27] Module <class 'nemo.collections.tts.models.radtts.RadTTSModel'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2022-11-10 19:41:04 nemo_logging:349] /Users/euna/opt/anaconda3/envs/NeMo-FastPitch/lib/python3.8/site-packages/hydra/_internal/hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+    See https://hydra.cc/docs/next/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+      ret = run_job(
+    
+[NeMo W 2022-11-10 19:41:04 fastpitch_finetune:28] You are using an optimizer scheduler while finetuning. Are you sure this is intended?
+[NeMo W 2022-11-10 19:41:04 nemo_logging:349] /Users/euna/opt/anaconda3/envs/NeMo-FastPitch/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:704: UserWarning: You passed `Trainer(accelerator='cpu', precision=16)` but native AMP is not supported on CPU. Using `precision='bf16'` instead.
+      rank_zero_warn(
+    
+[NeMo I 2022-11-10 19:41:04 exp_manager:315] Experiments will be logged at ljspeech_to_6097_no_mixing_5_mins/FastPitch/2022-11-10_19-41-04
+[NeMo I 2022-11-10 19:41:04 exp_manager:704] TensorboardLogger has been set up
+[NeMo W 2022-11-10 19:41:04 exp_manager:971] The checkpoint callback was told to monitor a validation value and trainer's max_steps was set to -1. Please ensure that max_steps will run for at least 25 epochs to ensure that checkpointing will not error out.

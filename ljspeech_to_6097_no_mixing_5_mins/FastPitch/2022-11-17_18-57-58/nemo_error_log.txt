@@ -1,0 +1,17 @@
+[NeMo W 2022-11-17 18:57:56 optimizers:55] Apex was not found. Using the lamb or fused_adam optimizer will error out.
+[NeMo W 2022-11-17 18:57:57 experimental:27] Module <class 'nemo.collections.common.tokenizers.text_to_speech.tts_tokenizers.IPATokenizer'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2022-11-17 18:57:57 experimental:27] Module <class 'nemo.collections.tts.models.radtts.RadTTSModel'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2022-11-17 18:57:58 nemo_logging:349] /Users/euna/opt/anaconda3/envs/NeMo-FastPitch/lib/python3.8/site-packages/hydra/_internal/hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+    See https://hydra.cc/docs/next/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+      ret = run_job(
+    
+[NeMo W 2022-11-17 18:57:58 fastpitch_finetune:28] You are using an optimizer scheduler while finetuning. Are you sure this is intended?
+[NeMo W 2022-11-17 18:57:58 nemo_logging:349] /Users/euna/opt/anaconda3/envs/NeMo-FastPitch/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:704: UserWarning: You passed `Trainer(accelerator='cpu', precision=16)` but native AMP is not supported on CPU. Using `precision='bf16'` instead.
+      rank_zero_warn(
+    
+[NeMo W 2022-11-17 18:57:58 exp_manager:971] The checkpoint callback was told to monitor a validation value and trainer's max_steps was set to -1. Please ensure that max_steps will run for at least 25 epochs to ensure that checkpointing will not error out.
+[NeMo W 2022-11-17 18:58:15 experimental:27] Module <class 'nemo_text_processing.g2p.modules.IPAG2P'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2022-11-17 18:58:16 modules:95] apply_to_oov_word=None, This means that some of words will remain unchanged if they are not handled by any of the rules in self.parse_one_word(). This may be intended if phonemes and chars are both valid inputs, otherwise, you may see unexpected deletions in your input.
+[NeMo W 2022-11-17 18:58:16 nemo_logging:349] /Users/euna/opt/anaconda3/envs/NeMo-FastPitch/lib/python3.8/site-packages/torch/jit/annotations.py:299: UserWarning: TorchScript will treat type annotations of Tensor dtype-specific subtypes as if they are normal Tensors. dtype constraints are not enforced in compilation either.
+      warnings.warn("TorchScript will treat type annotations of Tensor "
+    
